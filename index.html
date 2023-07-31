@@ -8,15 +8,17 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Sacramento&family=Work+Sans:wght@100;400;600;700&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Sacramento&family=Work+Sans:wght@100;300;400;600;700&display=swap" rel="stylesheet" />
 
     <!-- simplyCountdown -->
     <link rel="stylesheet" href="countdown/simplyCountdown.theme.default.css" />
     <script src="countdown/simplyCountdown.min.js"></script>
 
+    <!-- Bootstrap icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
+
     <link rel="stylesheet" href="style.css" />
   </head>
-
   <body>
     <section id="hero" class="hero w-100 h-100 p-3 mx-auto text-center d-flex justify-content-center align-items-center text-white">
       <main>
@@ -26,6 +28,92 @@
         <div class="simply-countdown"></div>
         <a href="#undangan" class="btn btn-lg mt-4">Lihat undangan</a>
       </main>
+    </section>
+
+    <nav class="navbar navbar-expand-md bg-trasnparent sticky-top mynavbar">
+      <div class="container">
+        <a class="navbar-brand" href="#">Bima Sinaga Wedding</a>
+        <button class="navbar-toggler border-8" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Bima Sinaga Wedding</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <div class="navbar-nav ms-auto">
+              <a class="nav-link" href="#home">Home</a>
+              <a class="nav-link" href="#info">Info</a>
+              <a class="nav-link" href="#Injil">Injil</a>
+              <a class="nav-link" href="#gallery">Gallery</a>
+              <a class="nav-link" href="#rsvp">Rsvp</a>
+              <a class="nav-link" href="#gifts">Gifts</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <section id="home" class="home">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 text-center">
+            <h2>Acara Pernikahan</h2>
+            <h3>Diselenggarakan pada 12 Desember 2023 di Pematang Siantar.</h3>
+            <p>Oleh karena itu, dengan segala Hormat kami mengundang Bapak/Ibu, Saudara/i, agar hadir pada acara pernikahan kami.</p>
+          </div>
+        </div>
+
+        <div class="row couple">
+          <div class="col-lg-6">
+            <div class="row">
+              <div class="col-8 text-end">
+                <h3>Bima Sinaga</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, et aliquam! Necessitatibus sequi cumque eaque?</p>
+                <p>
+                  Putra dari Bpk. Lorem <br />dan <br />
+                  Ibu Ipsum
+                </p>
+              </div>
+              <div class="col-4">
+                <img src="img/Screenshot (111).png" alt="Bima sinaga" class="img-responsive rounded-circle" width="170px" height="170px" />
+              </div>
+            </div>
+          </div>
+
+          <span class="hearth"><i class="bi bi-chat-square-heart-fill"></i></span>
+
+          <div class="col-lg-6">
+            <div class="row">
+              <div class="col-4">
+                <img src="img/WhatsApp Image 2023-07-31 at 20.25.02.jpeg" alt="Bima sinaga" class="img-responsive rounded-circle" width="170px" height="170px" />
+              </div>
+              <div class="col-8">
+                <h3>Cewe</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, et aliquam! Necessitatibus sequi cumque eaque?</p>
+                <p>
+                  Putri dari Bpk. Lorem <br />dan <br />
+                  Ibu Ipsum
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="info " class="info">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-10 text-center">
+            <h2>Informasi Acara</h2>
+            <p class="alamat">Alamat : Sopo Anugrah <br />Jl. Pattimura No.394, Tomuan, Kec. Siantar Tim., Kota Pematang Siantar</p>
+            <a href="https://goo.gl/maps/eA9XHfCqr4HdT4ZBA " target="_blank" class="btn btn-light btn-sm my-3">Klik Untuk Peta</a>
+            <p class="description">Diharapkan untuk datang dan tidak salah alamat dan tanggal. Jika tiba di tujuan namun tidak ada tanda-tanda sedang pesta pernikahan, bisa jadi Anda salah alamat atau Jadwal</p>
+          </div>
+        </div>
+      </div>
     </section>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
