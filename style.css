@@ -115,14 +115,14 @@ body {
 }
 
 .home h3 {
-  color: #444;
+  color: #000000;
   font-size: 1.5rem;
   margin-bottom: 1rem;
 }
 
 .home p {
   font-size: 1.2rem;
-  color: #666;
+  color: #000000;
 }
 .home .couple {
   margin-top: 100px;
@@ -154,6 +154,37 @@ body {
   margin: auto;
   color: var(--pink);
 }
+
+.injil {
+  background-image: url(img/black-and-white-rings-wedding-bands-wallpaper-preview.jpg);
+  background-size: cover;
+  min-height: 100vh;
+  margin-top: -2rem;
+  padding-top: 15rem;
+  padding-bottom: 2rem;
+}
+
+.injil h1 {
+  color: yellow;
+  font-family: "Sacramento";
+  font-size: 5rem;
+  font-weight: bold;
+  text-shadow: var(--shadow);
+}
+
+.injil p {
+  color: white;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  text-shadow: var(--shadow);
+}
+
+.injil h2 {
+  font-family: "Sacramento";
+  color: yellow;
+  font-size: 5rem;
+}
+
 /* media query */
 /* Extra large */
 @media (max-width: 1200px) {
