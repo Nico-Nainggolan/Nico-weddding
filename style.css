@@ -155,6 +155,27 @@ body {
   color: var(--pink);
 }
 
+.info .card {
+  background-color: rgba(255, 255, 255, 0.2) !important;
+  color: white !important;
+  border: 1px solid #999;
+}
+
+.info .card-header {
+  border-bottom: 1px solid #999;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+}
+
+.info .card-body {
+  font-size: 1rem;
+}
+
+.info .card-footer {
+  border-top: 1px solid #999;
+  font-size: 0.9rem;
+  font-weight: 300;
+}
 .injil {
   background-image: url(img/black-and-white-rings-wedding-bands-wallpaper-preview.jpg);
   background-size: cover;
